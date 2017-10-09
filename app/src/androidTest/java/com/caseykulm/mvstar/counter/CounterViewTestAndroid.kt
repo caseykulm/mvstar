@@ -46,7 +46,6 @@ class CounterViewTestAndroid {
     plusClickStream.onNext("")
     plusClickStream.onNext("")
 
-
     // assert
     repository.getCount().test()
       .assertNoErrors()
